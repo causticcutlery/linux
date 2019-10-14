@@ -1,27 +1,29 @@
-alias grep="grep --color=auto"
-alias egrep="egrep --color=auto"
-alias fgrep="fgrep --color=auto"
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 
-alias h="history"
-alias j="jobs -l"
-alias c="clear"
+alias h='history'
+alias j='jobs -l'
+alias c='clear'
 
-alias grep="grep --color -P"
+alias grep='grep --color -P'
 
-alias l.="ls -d .* --color=auto"
+alias l.='ls -d .* --color=auto'
 alias dir=ls
-alias cd..="cd .."
+alias cd..='cd ..'
 
-alias ..="cd .."
-alias ...="cd ../../../"
-alias ....="cd ../../../../"
-alias .....="cd ../../../../"
-alias .4="cd ../../../../"
-alias .5="cd ../../../../.."
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
 
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -l'
 
-alias Nano=’sudo nano’
-alias Vim=’sudo vim’
+alias Nano='sudo nano'
+alias Vim='sudo vim'
+
+alias please='sudo $(fc -ln -1)'
